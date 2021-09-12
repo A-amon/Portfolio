@@ -1,0 +1,19 @@
+.start{
+	height: $s-pin;
+	width: $s-pin;	
+	background-color: transparent;
+	fill: $c-white;
+
+	&__svg{
+		width: 30px;
+	}
+
+	&:hover{
+		background-color: rgba($c-white,0.25);
+	}
+
+	&--opened{
+		background-color: rgba($c-white,0.5);
+		fill:$c-black;
+	}
+}

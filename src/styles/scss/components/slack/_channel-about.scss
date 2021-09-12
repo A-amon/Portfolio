@@ -1,0 +1,97 @@
+
+.channel-about{
+	position: relative;
+	&::before{
+		content:'';
+		height:150px;
+		width: 100%;
+		display: block;
+		top:0;
+		left:0;
+		background-color: $c-apple;
+		position: absolute;
+	}
+
+	&__header, &__body{
+		@include contentFadeIn;
+	}
+
+	&__header{
+		text-align: center;
+		z-index: 1;
+		position: relative;
+		margin-top: 25px;
+	}
+
+	&__image{
+		height: 100px;
+		width: 100px;
+		background-color: $c-white;
+		border-radius: 50%;
+		margin: auto;
+	}
+
+	&__name{
+		font-size: 1rem;
+		text-transform: uppercase;
+	}
+
+	&__role{
+		text-transform: capitalize;
+	}
+
+	&__quote{
+		font-size: 0.9rem;
+		&::before{
+			content:'';
+			width: 90%;
+			height: 5px;
+			background:linear-gradient(to right, transparent, $c-apple, transparent);
+			display: block;
+			margin: auto;
+			margin-bottom: 1rem;
+		}
+	}
+
+	&__socials{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__social{
+		list-style: none;
+
+		&:hover{
+			opacity: 0.5;
+		}
+
+		&:not(:last-child){
+			margin-right: 0.5rem;
+		}
+
+		path{
+			fill:$c-white;
+		}
+	}
+
+	&__name, &__role{
+		margin-bottom: 0.5rem;
+	}
+
+	&__image, &__socials{
+		margin-bottom: 1rem;
+	}
+
+	&__body{
+		padding:1rem 0;
+	}
+
+	&__text{
+		margin-bottom:0.5rem;
+	}
+
+	.channel-link{
+		margin-bottom: 1rem;
+	}
+}

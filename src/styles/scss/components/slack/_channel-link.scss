@@ -1,0 +1,18 @@
+.channel-link{
+	color:$c-white;
+	text-decoration: none;
+	padding:0.5rem 1rem;
+	background-color: $c-cinder;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	display: block;
+	max-width: fit-content;
+
+	&:hover{
+		opacity: 0.5;
+	}
+
+	&__hash{
+		margin-right: 0.5rem;
+	}
+}

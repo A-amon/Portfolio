@@ -1,0 +1,9 @@
+
+const types = {
+	SET_CHANNELS: 'SET_CHANNELS',
+	SET_WORKSPACES: 'SET_WORKSPACES',
+	SET_FIRST_EL: 'SET_FIRST_EL',
+	SET_LAST_EL: 'SET_LAST_EL'
+}
+
+export default types

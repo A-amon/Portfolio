@@ -1,0 +1,54 @@
+
+/***************************
+* COLORS
+*****************************/
+$c-black:hsl(0,0%,0%);
+$c-white:hsl(0,0%,100%);
+$c-tundora: hsl(0, 0%, 27%);            // taskbar, hero text
+$c-azureradiance:hsl(210, 100%, 50%);   // link
+$c-cornflowerblue:hsl(219, 79%, 66%);   // opened app
+$c-seagull:hsl(206, 70%, 70%);          // current channel
+$c-mountainmist:hsl(260, 1%, 55%);
+$c-balticsea:hsl(260, 12%, 10%);        // sidebars background, channel links
+$c-balticsea2:hsl(252, 6%, 17%);
+$c-shark:hsl(214, 12%, 12%);            // main background
+$c-gray:hsl(0, 0%, 50%);
+$c-froly:hsl(5, 90%, 72%);              // close button
+$c-red:hsl(0, 100%, 50%);               // notification
+$c-apple:hsl(120,61%,50%);
+$c-cinder:hsl(260,16%,7%);
+$c-onyx:hsl(0, 0%, 6%);
+
+/***************************
+* DEVICE SIZES
+*****************************/
+$d-tablet:768px;
+$d-laptop:1020px;
+
+
+/***************************
+* TYPOGRAPHY
+*****************************/
+// Font sizes
+$fs-normal:1rem;
+$fs-small:0.8rem;
+
+// Font families
+$ff-quicksand: 'Quicksand', sans-serif;
+$ff-roboto: 'Roboto', sans-serif;
+
+// Font weights
+$fw-regular:400;
+$fw-bold:700;
+
+
+/***************************
+* SPACING
+*****************************/
+$sp-taskbar:1rem;
+
+
+/***************************
+* SIZES
+*****************************/
+$s-pin:80px;

@@ -1,0 +1,22 @@
+
+.channel{
+	list-style: none;
+	text-transform: capitalize;
+
+	&__link{
+		text-decoration: none;
+		color:$c-mountainmist;
+		padding:1rem 1rem 1rem 3rem;
+		display: block;
+
+		&.active{
+			background-color: $c-seagull;
+			color:$c-white;
+		}
+		
+		&::before{
+			content:'#';
+			margin-right: 1rem;
+		}
+	}
+}

@@ -1,0 +1,51 @@
+
+.slack-taskbar{
+	background-color: $c-balticsea;
+	color:rgba($c-white, 0.5);
+	position: relative;
+
+	&__title{
+		font-weight: $fw-regular;
+		font-size: 0.9rem;
+		position: absolute;
+		left:1rem;
+		margin:auto;
+		max-width: fit-content;
+	}
+
+	&, &__buttons{
+		display: flex;
+		align-items: center;
+	}
+
+	&__buttons{
+		margin-left: auto;
+	}
+
+	&__button{
+		background-color:transparent;
+		height:2.5rem;
+		width: 2.5rem;
+		display: block;
+
+		&:hover{
+			background-color: rgba($c-white,0.25);
+		}
+
+		&--close:hover{
+			background-color: $c-froly;
+		}
+	}
+
+	&__svg{
+		height:0.9rem;
+		width:0.9rem;
+		fill:$c-white;	
+	}
+
+	@include tablet-query{
+		&__title{
+			right:0;
+		}
+	}
+}

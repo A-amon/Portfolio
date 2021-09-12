@@ -1,0 +1,13 @@
+
+.datetime{
+	color:$c-white;
+	&__time{
+		display: block;
+		text-align: right;
+		font-weight: $fw-regular;
+		&--time{
+			text-transform: uppercase;
+			margin-bottom: 0.5rem;
+		}
+	}
+}

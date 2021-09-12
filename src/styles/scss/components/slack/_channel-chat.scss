@@ -1,0 +1,65 @@
+
+.channel-chat{
+	&__text{
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid $c-white;
+	}
+
+	&__group{
+		margin-bottom: 1rem;
+		&:nth-child(2){
+			@include slideUp($delay:0.5s);
+		}
+
+		&:nth-child(3){
+			@include slideUp($delay:0.8s);
+		}
+
+		&:nth-child(4){
+			@include slideUp($delay:1.1s);
+		}
+	}
+
+	&__input{
+		color:$c-white;
+		border:none;
+		background-color:rgba($c-white,0.3);
+		font-size: 0.9rem;
+		padding:1rem;
+		font-family: inherit;
+		width: 100%;
+		border-radius: 5px;
+		&::placeholder{
+			text-transform: capitalize;
+			color:inherit;
+			opacity: 0.8;
+		}
+	}
+
+	&__error{
+		font-size: 0.8rem;
+		font-weight: $fw-regular;
+		color:$c-froly;
+		margin-top:0.5rem;
+		display: block;
+	}
+
+	&__submit{
+		margin-left: auto;
+		display: block;
+		padding:1rem 2rem;
+		font-family: inherit;
+		background-color: $c-azureradiance;
+		color:$c-white;
+		border-radius: 5px;
+		&:hover{
+			opacity:0.8;
+		}
+	}
+
+	&__submit-message{
+		font-size:0.9rem;
+		margin-top:1rem;
+	}
+}

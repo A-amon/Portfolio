@@ -1,0 +1,14 @@
+
+.container{
+	margin:auto;
+	padding:0 1rem;
+	width: 100%;
+
+	@include tablet-query{
+		width: $d-tablet;
+	}
+
+	@include laptop-query{
+		width: $d-laptop;
+	}
+}

@@ -1,0 +1,40 @@
+
+.win-menu{
+	position: fixed;
+	bottom:calc(#{$s-pin} + #{$sp-taskbar}*2);	// position above Start button
+	left:0;
+	right:0;
+	z-index: 1;
+	display: none;
+	pointer-events: none;
+
+	&.show{
+		display: block;
+		@include slideUp;
+	}
+
+	&__dialog{
+		position: relative;
+		min-height: 500px;
+		max-width: 350px;
+		padding: 2rem;
+		color:$c-white;
+		background-color: $c-tundora;
+		pointer-events: all;
+	}
+
+	&__text{
+		margin-bottom: 1rem;
+	}
+
+	&__link{
+		margin-left: 0.5rem;
+		color:$c-azureradiance;
+	}
+
+	@include tablet-query{
+		.container{
+			padding:0;
+		}
+	}
+}

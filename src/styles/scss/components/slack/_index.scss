@@ -1,0 +1,30 @@
+@import 'taskbar';
+@import 'sidebar';
+@import 'workspace';
+@import 'channel-router';
+@import 'channel';
+@import 'channel-page';
+@import 'channel-about';
+@import 'channel-link';
+@import 'channel-projects';
+@import 'project';
+@import 'channel-chat';
+
+.slack{
+	&__dialog{
+		width:900px;
+		height:600px;
+		background-color: $c-shark;
+		border-radius: 10px;
+		margin-bottom:calc(#{$s-pin} + #{$sp-taskbar}*2);	// position above Start button
+		box-shadow: 0 0px 10px rgba($c-black, 0.5);
+		display:grid;
+		grid-template-rows:auto 1fr;
+		grid-template-columns:auto 1fr;
+	}
+
+	&-taskbar{
+		border-radius: inherit;
+		grid-column: 1/3;
+	}
+}

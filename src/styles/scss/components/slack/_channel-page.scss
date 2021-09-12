@@ -1,0 +1,16 @@
+
+.channel-page{
+	flex:1;
+	height:100%;
+	color:$c-white;
+	overflow: auto;
+	padding:4rem;
+
+	&::-webkit-scrollbar{
+		background-color: transparent;
+		width: 5px;
+		&-thumb{
+			background-color: $c-tundora;
+		}
+	}
+}

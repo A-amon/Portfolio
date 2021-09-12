@@ -1,0 +1,40 @@
+
+.pin{
+	height: $s-pin;
+	width: $s-pin;	
+	background-color: transparent;
+	position: relative;
+
+	&__img{
+		width: 30px;
+		position:relative;
+		z-index: 1;
+	}
+
+	&::before{
+		content:'';
+		height:50px;
+		width: 50px;
+		background-color: $c-white;
+		border-radius:50%;
+		position: absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:auto;
+	}
+
+	&:hover{
+		background-color: rgba($c-white,0.25);
+	}
+
+	&--inactive{
+		background-color:transparent;
+		border-bottom: 5px solid $c-cornflowerblue;
+	}
+
+	&--opened{
+		background-color: rgba($c-white,0.5);
+	}
+}

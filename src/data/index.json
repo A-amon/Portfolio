@@ -1,0 +1,58 @@
+{
+	"pins": [
+		{
+			"name": "Slack",
+			"image": "logo-slack.png",
+			"control": "slack"
+		}
+	],
+	"workspaces": [
+		{
+			"name": "Portfolio",
+			"channels": [
+				{
+					"name": "About me",
+					"path": "/about"
+				},
+				{
+					"name": "Projects",
+					"path": "/projects"
+				},
+				{
+					"name": "Chat",
+					"path": "/chat"
+				}
+			]
+		}
+	],
+	"projects": [
+		{
+			"name": "Sunnyside landing page",
+			"description": "One-page site for mock Sunnyside agency",
+			"repo": "https://github.com/A-amon/Sunnyside",
+			"demo": "https://a-amon.github.io/Sunnyside/",
+			"image": "project-sunnyside.PNG"
+		},
+		{
+			"name": "Social media dashboard",
+			"description": "A static dashboard displaying hard-code numbers and details",
+			"repo": "https://github.com/A-amon/Social-media-dashboard",
+			"demo": "https://a-amon.github.io/Social-media-dashboard/",
+			"image": "project-socialmedia.PNG"
+		},
+		{
+			"name": "Todo",
+			"description": "A classic React application for keeping track of your daily tasks",
+			"repo": "https://github.com/A-amon/Todo",
+			"demo": "https://a-amon.github.io/Todo/",
+			"image": "project-todo.PNG"
+		},
+		{
+			"name": "Job listing",
+			"description": "A one page site for filtering through data provided in JSON",
+			"repo": "https://github.com/A-amon/Job-Listing",
+			"demo": "https://a-amon.github.io/Job-Listing/",
+			"image": "project-joblisting.PNG"
+		}
+	]
+}

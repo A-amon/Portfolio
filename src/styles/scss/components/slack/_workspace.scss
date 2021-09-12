@@ -1,0 +1,27 @@
+
+.workspace{
+	color:$c-balticsea;
+	text-decoration: none;
+	background-color: $c-white;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	font-weight: $fw-bold;
+	position: relative;
+	&.current::after{
+		content:'';
+		height:110%;
+		width:110%;
+		position:absolute;
+		top:0;
+		left:50%;
+		transform:translateX(-50%);
+		bottom:0;
+		margin:auto;
+		border:5px solid $c-mountainmist;
+		border-radius: 50%;
+	}
+}

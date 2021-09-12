@@ -1,0 +1,36 @@
+
+.modal{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	perspective: 100px;
+
+	&--opened{
+		display: block;
+		@include slideUp(50%);
+	}
+
+	&--inactive{
+		visibility: hidden;
+	}
+
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		animation:containerRotate 0.5s 1 forwards;
+	}
+}
+
+@keyframes containerRotate{
+	from{
+		transform:rotateX(-45deg) translateY(500px);
+	}
+	to{
+		transform:rotateX(0) translateY(0);
+	}
+}

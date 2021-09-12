@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $ff-roboto;
+}
+
+p{
+	line-height: 1.5;
+}
+
+button{
+	border:none;
+	cursor: pointer;
+}
+
+.sr-only{
+    height:0;
+    width: 0;
+    display: block;
+    overflow: hidden;
+}

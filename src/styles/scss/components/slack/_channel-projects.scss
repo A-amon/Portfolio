@@ -1,0 +1,23 @@
+
+.channel-projects{
+	text-align: center;
+	.slick{
+		&-slider{
+			max-width: 400px;
+		}
+
+		&-current{
+			@include contentFadeIn;
+		}
+	}
+
+	&__text{
+		margin-top: 2rem;
+		font-size: 0.8rem;
+	}
+
+	&__link{
+		color:$c-azureradiance;
+		margin-left: 0.5rem;
+	}
+}

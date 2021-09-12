@@ -1,0 +1,12 @@
+
+.slack-sidebar{
+	background-color: $c-balticsea;
+	height: 100%;
+	width:250px;
+	padding:2rem 0;
+
+	&--workspaces{
+		width: 100px;
+		border-right:2px solid $c-balticsea2;
+	}
+}
