@@ -23,7 +23,7 @@ I used the second method which is via Fetch API to implement the feature 😀
 |---|-----------|
 |control|Id of modal component (Has to be same as component's name)|
 ### Adding workspace
-Currently, adding new workspace won't allow you to navigate to the new workspace.
+Currently, adding new workspace won't allow you to navigate to the new workspace. 😅
 
 ## Interesting packages used
 - [React Hook Form](https://react-hook-form.com/get-started)
