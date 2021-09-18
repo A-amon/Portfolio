@@ -1,7 +1,9 @@
 # Portfolio
 
 This is a portfolio site that mimic Windows interface (but a simpler version) 😂  
-And Slack application (Also a simpler version) 
+And Slack application (Also a simpler version)  
+
+**Warning:** Best view in desktop size as Slack app/modal is not responsive
 
 Inspired by [Vscode Portfolio by Itsnitinr](https://github.com/itsnitinr/vscode-portfolio)  
 ⬆ You should totally check it out. It's so cool compared to mine!
