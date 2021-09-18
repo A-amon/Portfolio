@@ -55,7 +55,7 @@ const Datetime = () => {
 		const minute = datetime.getMinutes()
 		const type = hour >= 12 ? 'PM' : 'AM'
 
-		return `${setDoubleDigits(hour - 12)}:${setDoubleDigits(minute)} ${type}`
+		return `${setDoubleDigits(hour >= 12 ? hour - 12 : hour)}:${setDoubleDigits(minute)} ${type}`
 	}
 
 	/**
