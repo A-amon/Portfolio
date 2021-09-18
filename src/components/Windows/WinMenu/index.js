@@ -22,7 +22,7 @@ const WinMenu = ({ opened }) => {
 					<p className='win-menu__text'>Only the Slack clone is executable now.</p>
 					<p className='win-menu__text'>
 						If you wish to see more features, let me know at
-						<a className='win-menu__link' href="#">adarkamon@gmail.com</a>
+						<a className='win-menu__link' href="mailto:adarkamon@gmail.com">adarkamon@gmail.com</a>
 					</p>
 				</div>
 			</div>

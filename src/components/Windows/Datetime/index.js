@@ -47,14 +47,15 @@ const Datetime = () => {
 
 	/**
 	 * Get current time
+	 * > 12 hours system
 	 */
 	const getTime = () => {
 		const datetime = new Date()
-		const hour = datetime.getHours() - 12	// 12 hours system
+		const hour = datetime.getHours()
 		const minute = datetime.getMinutes()
 		const type = hour >= 12 ? 'PM' : 'AM'
 
-		return `${setDoubleDigits(hour)}:${setDoubleDigits(minute)} ${type}`
+		return `${setDoubleDigits(hour - 12)}:${setDoubleDigits(minute)} ${type}`
 	}
 
 	/**
