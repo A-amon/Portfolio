@@ -18,6 +18,8 @@ Inspired by [Vscode Portfolio by Itsnitinr](https://github.com/itsnitinr/vscode-
 Refer [this](https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/)  
 I used the second method which is via Fetch API to implement the feature 😀
 
+Check out [dev branch](https://github.com/A-amon/Portfolio/tree/dev) to learn more about the development
+
 ## Interesting packages used
 - [React Hook Form](https://react-hook-form.com/get-started)
 - [React Particles JS](https://github.com/Wufe/react-particles-js)
